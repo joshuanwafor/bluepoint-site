@@ -46,7 +46,8 @@ export function Logo({
       className={`group inline-flex items-center gap-2.5 ${className}`}
       aria-label="Blue Point Technology Solutions — home"
     >
-      <LogoMark className="h-9 w-9 shrink-0 transition-transform duration-300 group-hover:-translate-y-0.5" />
+      {tone == "dark" ? <img src={"/4.png"} width={150} /> : <img src={"/3.png"} width={150} />}
+      {/* <LogoMark className="h-9 w-9 shrink-0 transition-transform duration-300 group-hover:-translate-y-0.5" />
       <span className="flex flex-col leading-none">
         <span
           className={`font-display text-[17px] font-semibold tracking-tight ${top}`}
@@ -58,7 +59,7 @@ export function Logo({
         >
           Technology Solutions
         </span>
-      </span>
+      </span> */}
     </Link>
   );
 }

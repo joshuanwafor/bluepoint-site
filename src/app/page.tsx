@@ -33,7 +33,7 @@ function Hero() {
   return (
     <section className="relative flex min-h-[92svh] items-end overflow-hidden bg-ink-950 pt-[72px]">
       <Image
-        src="/images/station-canopy-genset.jpg"
+        src="/images/landscape.jpeg"
         alt="Blue Point EV charging canopy with DC fast chargers and supporting power infrastructure"
         fill
         priority

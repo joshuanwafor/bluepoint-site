@@ -4,8 +4,8 @@ export const site = {
   tagline: "Powering Africa's electric mobility",
   description:
     "Blue Point is an engineering and technology company delivering end-to-end electric vehicle charging infrastructure across Nigeria and Africa — from engineering design and civil works to charging technology, software and long-term operations.",
-  url: "https://bluepoint.africa",
-  email: "temidayo@alerts.africa",
+  url: "https://bluepoint.ng",
+  email: "temidayo@bluepoint.ng",
   phone: "09060016233",
   phoneIntl: "+2349060016233",
   address: {
