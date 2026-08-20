@@ -16,17 +16,7 @@ export function Footer() {
       <div className="container-x relative py-20">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
-            <div className="flex items-center gap-2.5">
-              <LogoMark className="h-10 w-10" />
-              <span className="flex flex-col leading-none">
-                <span className="font-display text-lg font-semibold text-white">
-                  Blue Point
-                </span>
-                <span className="mt-1 text-[9.5px] font-medium uppercase tracking-[0.16em] text-white/50">
-                  Technology Solutions
-                </span>
-              </span>
-            </div>
+          <img src={"/4.png"} width={150} />
             <p className="mt-6 max-w-sm text-[15px] leading-relaxed text-white/55">
               Building the infrastructure that will power the next generation of
               transportation across Nigeria and Africa.
